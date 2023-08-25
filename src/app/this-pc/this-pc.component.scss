@@ -1,0 +1,37 @@
+
+
+.local-disks {
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+  
+  .local-disk-image {
+    display: grid;
+    grid-template-columns: auto;
+    height: 50px;
+    width: 100px;
+  }
+  
+  .local-disk {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .disk-c-box {
+    padding: 7px 10px;
+    background-color: #00a1ff;
+    background-size: 100px;
+    border: 1px solid #adaaaa;
+    border-radius: 2px;
+  }
+  
+  .disk-d-box {
+    padding: 7px 10px;
+    background-color: #ffffff;
+    border: 1px solid #adaaaa;
+    border-radius: 2px;
+  }
+  
+  .disk-d {
+    margin-top: 50px;
+  }

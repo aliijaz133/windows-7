@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+$background-picture: url(./assets/images/background-picture.jpg);
+
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+img {
+  user-select: none;
+}
+
+body {
+  background-image: $background-picture;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (max-width: 1440px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
